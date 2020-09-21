@@ -1,0 +1,12 @@
+#based on given example makefile
+
+CXX = g++ 
+CXXFLAGS = -std=c++17 -Wall 
+
+all: Point
+    
+Point: Point.cpp
+	$(CXX) $(CXXFLAGS) main.cpp Point.cpp -o Point 
+    
+clean:
+	rm Point.o Point

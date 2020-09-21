@@ -1,0 +1,18 @@
+What is the bash command to show your terminal's working directory (current location)?: pwd
+How would you create an empty file called empty.txt from the command line?: vi empty.txt
+Using the ls command, how would you list all files beginning with empty in your current directory?: ls -1 | sort
+Using the ls command, the wc command, and the |, how would you count the number of files ending in .txt in your current directory?: ***********
+Using the echo command and > or >>, what is the command to write your name to empty.txt?: echo "Gunther" >> empty.txt
+What is the bash command to rename that file to notempty.txt? mv empty.txt notempty.txt
+What is the bash command to create a directory named pe3_bash?: mkdir pe3_bash
+What is the command to move your terminal's working directory to pe3_bash? cd pe3_bash
+From the pe3_bash directory, how would you create a new directory, pe3_bash_number2 that has the same parent directory as pe3_bash? mkdir ../pe3_bash_number
+What is the command to move from pe3_bash to pe3_bash_number2 (use only one command)? cd ../pe3_bash_number
+What does pressing the up arrow key do?: shows you the last entered terminal command
+What does pressing the down arrow key do? sets the command to be empty 
+What does pressing ctrl+r do?: lets you search through your past commands by substring
+What are two different command-line based text editors (text editors that run from the command line and do not open a separate application)? (Answer the following questions for each editor that you have chosen.) vim
+What command do you use to open a file with this editor? vi <filename>
+What command do you use to save a file while using this editor? :w
+What command do you use to exit this editor? :q
+What are two reasons you might want to use the text editors listed above?: It is very fast to get to, if I am working on things through the terminal it could make a lot of sense. 
